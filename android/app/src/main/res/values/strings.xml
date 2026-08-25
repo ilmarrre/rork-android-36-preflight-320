@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Product -->
+    <string name="app_name">Ghost Detector</string>
+    <string name="unit_name">FIELD UNIT GD-7</string>
+    <string name="unit_badge">FIELD UNIT</string>
+    <string name="disclosure_footer">REAL DATA · EXPERIMENTAL INTERPRETATION</string>
+    <string name="unit_microtesla">µT</string>
+    <string name="value_placeholder">--.-</string>
+    <string name="value_none">—</string>
+
+    <!-- Briefing -->
+    <string name="briefing_title">GHOST DETECTOR</string>
+    <string name="briefing_subtitle">SPIRIT BOX</string>
+    <string name="briefing_tagline">SCAN. ASK. REVIEW WHAT HAPPENED.</string>
+    <string name="briefing_how_it_works">HOW THIS UNIT WORKS</string>
+    <string name="briefing_emf_title">EMF</string>
+    <string name="briefing_emf_body">Readings come from your phone\'s real magnetometer, in microtesla.</string>
+    <string name="briefing_signal_title">SIGNAL MODEL</string>
+    <string name="briefing_signal_body">Radar is a visualization of session activity. It does not measure distance or direction.</string>
+    <string name="briefing_box_title">SPIRIT BOX</string>
+    <string name="briefing_box_body">Words are drawn on-device from a weighted word list. Nothing is received, and no microphone is used.</string>
+    <string name="briefing_record_title">RECORD</string>
+    <string name="briefing_record_body">Every session is saved as a timestamped field report you can read and share.</string>
+    <string name="briefing_disclaimer">For entertainment. This unit does not detect the supernatural.</string>
+    <string name="briefing_continue">CONTINUE</string>
+    <string name="briefing_enter">ENTER FIELD MODE</string>
+    <string name="briefing_sensor_check">SENSOR CHECK</string>
+    <string name="briefing_hold_still">Baseline is measured at the start of every session, so hold the unit still for the first few seconds.</string>
+    <string name="briefing_no_sensor">This device has no magnetometer. Sessions still run and record, but EMF stays unavailable.</string>
+
+    <!-- Shared status -->
+    <string name="status_ready">READY</string>
+    <string name="status_limited">LIMITED</string>
+    <string name="status_online">ONLINE</string>
+    <string name="status_unavailable">UNAVAILABLE</string>
+    <string name="status_not_found">NOT FOUND</string>
+    <string name="status_local">LOCAL</string>
+    <string name="status_on_device">ON DEVICE</string>
+    <string name="status_standby">STANDBY</string>
+
+    <!-- Idle panel -->
+    <string name="label_magnetometer">MAGNETOMETER</string>
+    <string name="label_signal_model">SIGNAL MODEL</string>
+    <string name="label_word_engine">WORD ENGINE</string>
+    <string name="label_emf_sensor">EMF SENSOR</string>
+    <string name="label_free_session">FREE SESSION</string>
+    <string name="label_archive">ARCHIVE</string>
+    <string name="idle_status_format">STATUS: %1$s</string>
+    <string name="idle_session_not_running">SESSION: NOT RUNNING</string>
+    <string name="idle_baseline_hint">Baseline is measured when the session starts.</string>
+    <string name="idle_archive_full_hint">Archive is full at %1$d records — the oldest record will be replaced.</string>
+    <string name="archive_capacity_format">%1$d / %2$d</string>
+
+    <!-- Modes -->
+    <string name="mode_radar">RADAR</string>
+    <string name="mode_box">BOX</string>
+    <string name="mode_emf">EMF</string>
+    <string name="start_radar">START SCAN</string>
+    <string name="start_box">START SESSION</string>
+    <string name="start_emf">START MEASUREMENT</string>
+
+    <!-- Session -->
+    <string name="session_logging">LOGGING</string>
+    <string name="session_baseline">BASELINE</string>
+    <string name="session_sweeping">SWEEPING</string>
+    <string name="session_calibrating">CALIBRATING</string>
+    <string name="session_contacts_format">CONTACTS %1$d</string>
+    <string name="session_listening">LISTENING…</string>
+    <string name="session_measuring">MEASURING BASELINE…</string>
+    <string name="session_waiting">WAITING</string>
+    <string name="session_live_field">LIVE FIELD</string>
+    <string name="session_last_60">LAST 60 s</string>
+    <string name="session_base">BASE</string>
+    <string name="session_peak">PEAK</string>
+    <string name="session_threshold">THRESH</string>
+    <string name="session_spikes_format">SPIKES %1$d</string>
+    <string name="session_last_spike_format">SPIKES %1$d · LAST %2$s</string>
+    <string name="session_spike_active">SPIKE ACTIVE — ABOVE THRESHOLD</string>
+    <string name="session_no_entries">NO ENTRIES YET</string>
+    <string name="session_mark">★</string>
+    <string name="session_ask">\? ASK</string>
+    <string name="session_hold_stop">HOLD STOP</string>
+    <string name="session_hold">HOLD</string>
+    <string name="session_ending">ENDING</string>
+    <string name="session_value_format">%1$s %2$s</string>
+
+    <!-- Ask sheet -->
+    <string name="ask_title">ASK A QUESTION</string>
+    <string name="ask_body">The question is logged with a timestamp, and the engine answers sooner afterwards.</string>
+    <string name="ask_own_question">OWN QUESTION</string>
+    <string name="ask_send">ASK</string>
+    <string-array name="prepared_questions">
+        <item>Are you here?</item>
+        <item>What is your name?</item>
+        <item>How many of you are here?</item>
+        <item>Do you want us to leave?</item>
+        <item>Did you live in this place?</item>
+        <item>Can you come closer?</item>
+        <item>Are you alone?</item>
+        <item>How old were you?</item>
+    </string-array>
+
+    <!-- Leave confirmation -->
+    <string name="confirm_leave_title">SESSION RUNNING</string>
+    <string name="confirm_leave_body">Leaving now would end the session. Use HOLD STOP when you are finished — the record is written then.</string>
+    <string name="confirm_keep_running">KEEP RUNNING</string>
+    <string name="confirm_end_session">END SESSION</string>
+
+    <!-- Archive -->
+    <string name="archive_title">ARCHIVE</string>
+    <string name="archive_empty_title">NO RECORDS</string>
+    <string name="archive_empty_body">Finish a session and its field report is filed here.</string>
+
+    <!-- Record -->
+    <string name="record_number_format">RECORD %1$03d</string>
+    <string name="record_duration_format">DURATION %1$s</string>
+    <string name="record_responses">RESPONSES</string>
+    <string name="record_contacts">CONTACTS</string>
+    <string name="record_peak_emf">PEAK EMF</string>
+    <string name="record_strongest">STRONGEST</string>
+    <string name="record_duration">DURATION</string>
+    <string name="record_timeline">TIMELINE</string>
+    <string name="record_recurring_format">RECURRING: %1$s</string>
+    <string name="record_recurring_none">NONE</string>
+    <string name="record_summary_format">MARKED %1$d · BASELINE %2$s µT · THRESHOLD %3$s µT</string>
+    <string name="record_limit_reached">FREE SESSION LIMIT REACHED — SESSION CLOSED</string>
+    <string name="record_share">SHARE RECORD</string>
+    <string name="record_new_session">NEW SESSION</string>
+    <string name="record_open_archive">ARCHIVE</string>
+    <string name="record_delete">DELETE RECORD</string>
+    <string name="record_delete_title_format">DELETE %1$s</string>
+    <string name="record_delete_body">This record and its timeline are removed from the archive. This cannot be undone.</string>
+    <string name="record_delete_confirm">DELETE</string>
+    <string name="record_delete_cancel">KEEP</string>
+    <string name="record_missing_title">RECORD NOT FOUND</string>
+    <string name="record_missing_body">It may have been deleted from the archive.</string>
+    <string name="record_back">BACK</string>
+    <string name="record_share_subject_format">Ghost Detector — Record %1$d</string>
+    <string name="record_share_chooser">Share record</string>
+    <string name="record_share_footer">EMF from device magnetometer. Radar is a visualization model. Spirit Box words are generated on-device.</string>
+
+    <!-- Timeline entries -->
+    <string name="event_question_format">QUESTION: %1$s</string>
+    <string name="event_emf_spike_format">EMF SPIKE  %1$s µT</string>
+    <string name="event_radar_trace">RADAR TRACE</string>
+    <string name="event_radar_contact">RADAR CONTACT</string>
+    <string name="event_radar_lost">RADAR LOST</string>
+    <string name="event_marked">★ MARKED</string>
+    <string name="event_pause_format">PAUSE  %1$s</string>
+    <string name="event_baseline_format">BASELINE  %1$s µT</string>
+    <string name="event_session_start">SESSION START</string>
+    <string name="event_session_end">SESSION END</string>
+
+    <!-- Accessibility -->
+    <string name="a11y_state_active">active</string>
+    <string name="a11y_state_inactive">inactive</string>
+    <string name="a11y_mark">Mark this moment</string>
+    <string name="a11y_ask">Ask a question</string>
+    <string name="a11y_hold_stop">Hold to stop the session</string>
+    <string name="a11y_mode_format">%1$s view</string>
+    <string name="a11y_emf_value_format">Live field %1$s microtesla</string>
+    <string name="a11y_trace_format">Sixty second field trace, latest %1$s microtesla</string>
+    <string name="a11y_elapsed_format">Elapsed %1$s</string>
+    <string name="a11y_back">Back</string>
+    <string name="a11y_record_options">Record options</string>
+    <string name="a11y_tab_investigate">Investigate</string>
+    <string name="a11y_tab_archive">Archive</string>
+
+    <!-- Navigation -->
+    <string name="tab_investigate">INVESTIGATE</string>
+    <string name="tab_archive">ARCHIVE</string>
+
+</resources>
